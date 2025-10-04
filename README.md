@@ -1,4 +1,7 @@
-# Mad Libs Generator
+# Mad Libs Generator (1.2.10)
+
+## Team Members: Aryaman, Prabhav, and Vijayesh
+ 
 ## Overview
 We created a MadLibs generator in Java. We built this using:
  - input handling with scanner
