@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class YeddanapudiVasanthakumarSingh_MadLibs {
     public static String getWord(Scanner input, String wordType) {
         System.out.print("Enter a " + wordType + ": ");
@@ -7,9 +6,8 @@ public class YeddanapudiVasanthakumarSingh_MadLibs {
     }
     public static String generateStory(String noun1, String noun2, String verb1, String adjective1, String adjective2, String place, String pluralNoun) {
         return "One " + adjective1 + " day, I went to the " + place + " with my best friend. We saw a " + noun1 + " that could " + verb1 + " faster than anything else! " +
-            "It was so " + adjective2 + " that everyone stopped to watch. " + "Later, we bought some " + pluralNoun +  " and carried them home in a " + noun2 + ".";
+            "It was so " + adjective2 + " that everyone stopped to watch. " + "Later, we bought some " + pluralNoun +  " and carried them home in a(n) " + noun2 + ".";
     }
-    
     public static void main(String[] args) {
         Scanner madLib = new Scanner(System.in);
         // get user input for each word type
