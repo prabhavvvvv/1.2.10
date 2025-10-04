@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Yeddanapudi_MadLibs {
-
+public class YeddanapudiVasanthakumarSingh_MadLibs {
     // This function collects the user input whether it be an adjective, noun, verb, or place
     // Input is returned as a string
 
@@ -17,8 +16,8 @@ public class Yeddanapudi_MadLibs {
     public static void generateMadLibStory(String adj1, String noun1, String verb1, String adj2, String noun2, String verb2, String place) {
         System.out.println("\nHere's your Mad Libs story:");
         System.out.println("Once upon a time, there was a " + adj1 + " " + noun1 + " who loved to " + verb1 + ".");
-        System.out.println("One day, it met a " + adj2 + " " + noun2 + " that could " + verb2 + ".");
-        System.out.println("They decided to go on an adventure at " + place + " together.");
+        System.out.println("One day, they met a " + adj2 + " " + noun2 + " that could " + verb2 + ".");
+        System.out.println("They decided to go on an adventure to " + place + " together.");
     }
 
     // The main function runs the program
@@ -29,15 +28,13 @@ public class Yeddanapudi_MadLibs {
 
         // collect words from the user
         String adj1  = collectUserInput("Enter an adjective: ", scanner);
-        String noun1 = collectUserInput("Enter a noun: ", scanner);
+        String noun1 = collectUserInput("Enter a noun (name of person): ", scanner);
         String verb1 = collectUserInput("Enter a verb (present-tense): ", scanner);
         String adj2  = collectUserInput("Enter another adjective: ", scanner);
-        String noun2 = collectUserInput("Enter another noun: ", scanner);
+        String noun2 = collectUserInput("Enter another noun (name of person): ", scanner);
         String verb2 = collectUserInput("Enter another verb (present-tense): ", scanner);
         String place = collectUserInput("Enter a place: ", scanner);
 
         generateMadLibStory(adj1, noun1, verb1, adj2, noun2, verb2, place);
-
     }
 }
-
