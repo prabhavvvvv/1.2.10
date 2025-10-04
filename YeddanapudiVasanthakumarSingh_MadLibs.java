@@ -10,7 +10,7 @@ public class LastName_MadLibs {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // Collect user input for each word type
+        // get user input for each word type
         String noun1 = getWord(input, "noun");
         String noun2 = getWord(input, "another noun");
         String verb1 = getWord(input, "verb");
