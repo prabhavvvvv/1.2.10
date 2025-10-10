@@ -33,12 +33,12 @@ public class YeddanapudiVasanthakumarSingh_MadLibs {
         Scanner madLib = new Scanner(System.in);
         // get user input for each word type
         String noun1 = getWord(madLib, "noun");
-        String noun2 = getWord(madLib, "another noun");
+        String noun2 = getWord(madLib, "different noun");
+        String pluralNoun = getWord(madLib, "different plural noun");
         String verb1 = getWord(madLib, "verb");
         String adjective1 = getWord(madLib, "adjective");
-        String adjective2 = getWord(madLib, "another adjective");
+        String adjective2 = getWord(madLib, "different adjective");
         String place = getWord(madLib, "place");
-        String pluralNoun = getWord(madLib, "plural noun");
 
         // build & show final story
         String madLibStory = generateStory(noun1, noun2, verb1, adjective1, adjective2, place, pluralNoun);
