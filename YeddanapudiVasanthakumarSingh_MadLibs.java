@@ -25,7 +25,7 @@ public class YeddanapudiVasanthakumarSingh_MadLibs {
         String article = getArticle(noun1);
     
         return "One " + adjective1 + " day, I went to the " + place + " with my best friend. We saw " + article + " " + noun1 + " that could " + verb1 + " faster than anything else! " +
-            "It was so " + adjective2 + " that everyone stopped to watch. " + "Later, we bought some " + article + pluralNoun + " and carried them home in a(n) " + noun2 + ".";
+            "It was so " + adjective2 + " that everyone stopped to watch. " + "Later, we bought some " + pluralNoun + " and carried them home in " + article + noun2 + ".";
     }
 
     // this is the main method function
